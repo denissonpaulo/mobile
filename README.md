@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Pre-install node, npm
+
+npx create-react-app react-intro
+
+# $ npm install node-gyp react-native-cli react-router-dom axios express cors sequelize sqlite3
+
+npm start
+
+# Open other terminal
+
+node banco/api-db.js
+
