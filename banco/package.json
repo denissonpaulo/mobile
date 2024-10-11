@@ -1,0 +1,15 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "db_app_react",
+  "main": "api-cadastro.js",
+  "scripts": {
+    "test": "node api-cadastro.js"
+  },
+  "author": "Denisson",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "sequelize": "^6.37.4",
+    "sqlite3": "^5.1.7"
+  }
+}
