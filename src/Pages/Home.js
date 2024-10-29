@@ -1,4 +1,4 @@
-import logo from '../logo.svg';
+import logo from '../logo.gif';
 import '../App.css';
 import Header from '../Header';
 import {useState} from 'react'; 
@@ -19,9 +19,13 @@ function App() {
             <Link to="/cadastro">Acessar cadastro</Link>
         </p>
         <p>
-            <input type="button" value="Clique" onClick={increment} />
+          <form>
+            <input type="text" placeholder="Informe usuário:" /><br/>
+            <input type="password" placeholder="Informe senha:" /><br/>
+            <input type="button" value="ENTRAR" onClick={increment} />
+          </form>
         </p>
-        <p>{contador}</p> cliques!
+        <p>{contador}</p> Tentativas!
     </div>
     
   );
