@@ -33,7 +33,7 @@ function Form() {
     }
 
     return (
-        <div>
+        <div className="Form">
             <Header title="React Form" />
             <form onSubmit={handleFormSubmit}>
                 <fieldset>
